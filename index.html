@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudflare Pages - Production</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .badge {
+            display: inline-block;
+            background: #10b981;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            margin: 20px 0;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 15px 0;
+        }
+        .footer {
+            margin-top: 30px;
+            opacity: 0.8;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Cloudflare Pages</h1>
+        <div class="badge">PRODUCTION ENVIRONMENT</div>
+        <p>Welcome to the main branch deployment!</p>
+        <p>This page is successfully deployed on Cloudflare Pages.</p>
+        <div class="footer">
+            <p>Branch: <strong>main</strong></p>
+            <p>Status: Active ✓</p>
+        </div>
+    </div>
+</body>
+</html>
